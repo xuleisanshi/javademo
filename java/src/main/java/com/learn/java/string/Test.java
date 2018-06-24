@@ -85,6 +85,27 @@ public class Test {
 		
 		System.out.println("BFW".toLowerCase());
 		System.out.println(String.valueOf("a"));
+		
+		System.out.println(text.substring(0, 4));
+		
+		String test1 = "abcdabcd";
+		System.out.println("====================replace==================");
+		System.out.println(test1.replace("a", "1"));
+		//正则表达式
+		//TODO
+		
+		
+		int a = 0;
+		Object ob = new Object(); 
+		
+		System.out.println(String.valueOf(ob));
+		System.out.println(ob.toString());
+		System.out.println(Integer.toString(a));
+		
+		
+		Integer i = 10;
+		System.out.println(Integer.valueOf(i));
+
 
 	}
 
