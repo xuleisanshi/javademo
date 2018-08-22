@@ -1,9 +1,17 @@
 package com.learn.java.factory;
 
-public class Benz implements Car {
+public class Benz implements Car
+{
 
-	@Override
-	public void create() {
-		System.out.println("Benz run!!!");
-	}
+    public Benz()
+    {
+        System.out.println("Benz Created!!!");
+    }
+
+    @Override
+    public void run()
+    {
+        System.out.println("Benz Run!!!");
+    }
+
 }
